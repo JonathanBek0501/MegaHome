@@ -1,7 +1,7 @@
 <template>
     <div>
         <h1>
-            Hello
+            Ana oma boshlandiiiii
         </h1>
     </div>
 </template>
