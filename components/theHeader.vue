@@ -1,5 +1,3 @@
-
-import { IconChevron } from '#build/components';
 <template>
     <header>
         <div class="flex justify-center p-4">
@@ -16,7 +14,7 @@ import { IconChevron } from '#build/components';
                         <IconChevron class="group-hover:rotate-180 transition ease-in-out" />
                     </nuxt-link>
 
-                    <div class="absolute top-13 bg-black w-full hidden group-hover:block">
+                    <div class="absolute top-13 bg-black w-full hidden group-hover:block z-10">
                         <nuxt-link v-for="(subNav, index) in navigation.subtitles" :key="index" to="/" class="block text-center text-white hover:bg-brand p-3">
                             {{ subNav.title }}
                         </nuxt-link>

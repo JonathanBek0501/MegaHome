@@ -17,21 +17,21 @@
     >
       <swiper-slide>
         <div class="relative w-full h-full">
-          <img src="/ramadan-banner.webp" alt="" class="w-full h-full object-cover">
+          <img src="/ramadan-banner.webp" alt="" class="w-full h-full object-contain">
 
           <div class="absolute inset-0 bg-black/40 w-full h-full"></div>
         </div>
       </swiper-slide>
       <swiper-slide>
         <div class="relative w-full h-full">
-          <img src="/banner1.jpg" alt="" class="w-full h-full object-cover">
+          <img src="/banner1.jpg" alt="" class="w-full h-full object-contain">
 
           <div class="absolute inset-0 bg-black/40 w-full h-full"></div>
         </div>
       </swiper-slide>
       <swiper-slide>
         <div class="relative w-full h-full">
-          <img src="/banner2.jpg" alt="" class="w-full h-full object-cover">
+          <img src="/banner2.jpg" alt="" class="w-full h-full object-contain">
 
           <div class="absolute inset-0 bg-black/40 w-full h-full"></div>
         </div>
@@ -51,7 +51,8 @@
   import { ref } from 'vue';
   // Import Swiper Vue.js components
   import { Swiper, SwiperSlide } from 'swiper/vue';
-
+  
+  import 'swiper/css';
   import 'swiper/css/pagination';
   import 'swiper/css/navigation';
 
