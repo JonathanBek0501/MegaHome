@@ -1,4 +1,5 @@
 <template>
+  <div class="max-w-7xl mx-auto">
     <swiper
       :spaceBetween="30"
       :centeredSlides="true"
@@ -17,21 +18,21 @@
     >
       <swiper-slide>
         <div class="relative w-full h-full">
-          <img src="/ramadan-banner.webp" alt="" class="w-full h-full object-contain">
+          <img src="/ramadan-banner.webp" alt="" class="w-full h-full object-cover">
 
           <div class="absolute inset-0 bg-black/40 w-full h-full"></div>
         </div>
       </swiper-slide>
       <swiper-slide>
         <div class="relative w-full h-full">
-          <img src="/banner1.jpg" alt="" class="w-full h-full object-contain">
+          <img src="/banner1.jpg" alt="" class="w-full h-full object-cover">
 
           <div class="absolute inset-0 bg-black/40 w-full h-full"></div>
         </div>
       </swiper-slide>
       <swiper-slide>
         <div class="relative w-full h-full">
-          <img src="/banner2.jpg" alt="" class="w-full h-full object-contain">
+          <img src="/banner2.jpg" alt="" class="w-full h-full object-cover">
 
           <div class="absolute inset-0 bg-black/40 w-full h-full"></div>
         </div>
@@ -45,6 +46,7 @@
         </div>
       </template>
     </swiper>
+  </div>
 </template>
 
 <script>
@@ -93,7 +95,7 @@
   align-items: center;
   justify-content: center;
   font-weight: bold;
-  color: var(--swiper-theme-color);
+  color: #C21A1A;
 }
 
 .autoplay-progress svg {
@@ -105,10 +107,15 @@
   width: 100%;
   height: 100%;
   stroke-width: 4px;
-  stroke: var(--swiper-theme-color);
+  stroke: #C21A1A;
   fill: none;
   stroke-dashoffset: calc(125.6 * (1 - var(--progress)));
   stroke-dasharray: 125.6;
   transform: rotate(-90deg);
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #C21A1A;
 }
 </style>

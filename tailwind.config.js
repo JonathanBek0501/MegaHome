@@ -14,6 +14,9 @@ export default {
         brand: {
           DEFAULT: '#C21A1A'
         }
+      },
+      boxShadow: {
+        brand: '0px 0px 10px rgba(137, 142, 150, 0.50);'
       }
     },
   },

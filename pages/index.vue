@@ -1,5 +1,7 @@
 <template>
     <div>
-        <PageHomeHero />    
+        <PageHomeHero />
+        <PageHomeBestSellers />
+        <PageHomePopulars />
     </div>
 </template>
