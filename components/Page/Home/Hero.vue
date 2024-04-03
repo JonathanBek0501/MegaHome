@@ -87,7 +87,7 @@
   height: calc(100vh - 156.14px)
 }
 .custom-h-mob {
-  height: calc(100vh - 175px)
+  height: calc(100vh - 180px)
 }
 
 .autoplay-progress {
