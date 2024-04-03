@@ -13,8 +13,7 @@
       :navigation="true"
       :modules="modules"
       @autoplayTimeLeft="onAutoplayTimeLeft"
-      class="mySwiper"
-      style="height: calc(100vh - 156.14px);"
+      class="mySwiper custom-h"
     >
       <swiper-slide>
         <div class="relative w-full h-full">
@@ -84,6 +83,10 @@
 </script>
 
 <style>
+.custom-h {
+  height: calc(100vh - 156.14px)
+}
+
 .autoplay-progress {
   position: absolute;
   right: 16px;

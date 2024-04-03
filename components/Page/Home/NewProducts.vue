@@ -1,34 +1,34 @@
 <template>
     <div class="max-w-7xl mx-auto py-10 px-6">
         <h2 class="text-4xl font-bold pb-5">
-            Best Sellers
+            New Products
         </h2>
         <div class="relative">
             <swiper
-                :slides-per-view="1"
-                :space-between="16"
-                :navigation="{prevEl:'.swiper-button-pre', nextEl:'.swiper-button-nex'}"
-                :autoplay="{
-                    delay: 6000,
-                    disableOnInteraction: true,
-                    stopOnLastSlide: true
-                }"
-                :breakpoints="{
-                    '640': {
-                    slidesPerView: 2,
-                    spaceBetween: 16,
-                    },
-                    '768': {
-                    slidesPerView: 3,
-                    spaceBetween: 24,
-                    },
-                    '1024': {
-                    slidesPerView: 4,
-                    spaceBetween: 20,
-                    },
-                }"
-                :modules="modules"
-                class="swiperBestSellers !static"
+            :slides-per-view="1"
+            :space-between="16"
+            :navigation="{prevEl:'.swiper-button-pre', nextEl:'.swiper-button-nex'}"
+            :autoplay="{
+                delay: 6000,
+                disableOnInteraction: true,
+                stopOnLastSlide: true
+            }"
+            :breakpoints="{
+                '640': {
+                slidesPerView: 2,
+                spaceBetween: 16,
+                },
+                '768': {
+                slidesPerView: 3,
+                spaceBetween: 24,
+                },
+                '1024': {
+                slidesPerView: 4,
+                spaceBetween: 20,
+                },
+            }"
+            :modules="modules"
+            class="swiperNewProducts !static"
             >
                 <swiper-slide v-for="items in 8">
                     <Card />
