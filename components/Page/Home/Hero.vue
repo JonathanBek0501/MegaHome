@@ -13,7 +13,7 @@
       :navigation="true"
       :modules="modules"
       @autoplayTimeLeft="onAutoplayTimeLeft"
-      class="mySwiper custom-h"
+      class="mySwiper sm:custom-h-desc custom-h-mob"
     >
       <swiper-slide>
         <div class="relative w-full h-full">
@@ -83,8 +83,11 @@
 </script>
 
 <style>
-.custom-h {
+.custom-h-desc {
   height: calc(100vh - 156.14px)
+}
+.custom-h-mob {
+  height: calc(100vh - 140px)
 }
 
 .autoplay-progress {
