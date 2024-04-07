@@ -1,12 +1,12 @@
 <template>
-    <div class="max-w-7xl mx-auto py-10 px-6">
-        <h2 class="text-4xl font-bold pb-5">
+    <div class="max-w-7xl mx-auto py-10 px-4 sm:px-6">
+        <h2 class="text-3xl sm:text-4xl font-bold pb-5">
             Best Sellers
         </h2>
         <div class="relative">
             <swiper
-                :slides-per-view="1"
-                :space-between="16"
+                :slides-per-view="2"
+                :space-between="10"
                 :navigation="{prevEl:'.swiper-button-pre', nextEl:'.swiper-button-nex'}"
                 :autoplay="{
                     delay: 6000,
@@ -33,11 +33,11 @@
                 <swiper-slide v-for="items in 8">
                     <Card />
                 </swiper-slide>
-    
-                <button type="button" class="disabled:opacity-70 swiper-button-pre absolute top-1/2 -translate-y-1/2 -left-5 bg-white rounded-full border border-brand text-brand rotate-90 z-50 p-1.5 shadow-md">
+                
+                <button type="button" class="disabled:opacity-70 swiper-button-pre sm:absolute top-1/2 sm:-translate-y-1/2 -left-5 bg-white rounded-full border border-brand text-brand rotate-90 z-50 p-1.5 shadow-md mt-5">
                     <IconChevron />
                 </button>
-                <button type="button" class="disabled:opacity-70 swiper-button-nex absolute top-1/2 -translate-y-1/2 -right-5 bg-white rounded-full border border-brand text-brand -rotate-90 z-50 p-1.5 shadow-md">
+                <button type="button" class="disabled:opacity-70 swiper-button-nex sm:absolute top-1/2 sm:-translate-y-1/2 -right-5 bg-white rounded-full border border-brand text-brand -rotate-90 z-50 p-1.5 shadow-md mt-5 ml-3">
                     <IconChevron />
                 </button>
             </swiper>
