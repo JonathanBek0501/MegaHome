@@ -34,10 +34,10 @@
                     <Card />
                 </swiper-slide>
                 
-                <button type="button" class="disabled:opacity-70 swiper-button-pre sm:absolute top-1/2 sm:-translate-y-1/2 -left-5 bg-white rounded-full border border-brand text-brand rotate-90 z-50 p-1.5 shadow-md mt-5">
+                <button type="button" class="disabled:opacity-40 swiper-button-pre sm:absolute top-1/2 sm:-translate-y-1/2 -left-5 bg-white rounded-full border border-brand text-brand rotate-90 z-50 p-1.5 shadow-md mt-5">
                     <IconChevron />
                 </button>
-                <button type="button" class="disabled:opacity-70 swiper-button-nex sm:absolute top-1/2 sm:-translate-y-1/2 -right-5 bg-white rounded-full border border-brand text-brand -rotate-90 z-50 p-1.5 shadow-md mt-5 ml-3">
+                <button type="button" class="disabled:opacity-40 swiper-button-nex sm:absolute top-1/2 sm:-translate-y-1/2 -right-5 bg-white rounded-full border border-brand text-brand -rotate-90 z-50 p-1.5 shadow-md mt-5 ml-3">
                     <IconChevron />
                 </button>
             </swiper>
