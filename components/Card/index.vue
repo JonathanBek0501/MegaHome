@@ -1,17 +1,19 @@
 <template>
     <div class="rounded border overflow-hidden shadow-sm">
-        <img src="/banner1.jpg" alt="">
+        <div class="w-full h-44 sm:h-72">
+            <img :src="`/${img}`" :alt="title" class="w-full h-full object-cover">
+        </div>
         <div class="space-y-2 p-3 sm:p-4">
             <h3 class="sm:text-xl font-semibold">
-                Vashe chiroyli idish
+                {{ title }}
             </h3>
 
-            <div class="text-xs sm:text-base">
+            <div class="flex items-center gap-2 text-sm sm:text-base">
                 <span class="font-medium text-brand animate-pulse">
-                    400 000
+                    {{ formattedCurrentPrice }}
                 </span>
                 <span class="text-gray-400 line-through">
-                    550 000
+                    {{ formattedPrePrice }}
                 </span>
             </div>
 
@@ -21,3 +23,26 @@
         </div>
     </div>
 </template>
+
+<script setup>
+const formattedCurrentPrice = computed(() => {
+    if (typeof currentPrice === 'number') {
+        return currentPrice.toLocaleString('en-US');
+    }
+    return '';
+});
+
+const formattedPrePrice = computed(() => {
+    if (typeof prePrice === 'number') {
+        return prePrice.toLocaleString('en-US');
+    }
+    return '';
+});
+
+const { img, title, currentPrice, prePrice } = defineProps({
+    img: String,
+    title: String,
+    currentPrice: Number,
+    prePrice: Number,
+});
+</script>
