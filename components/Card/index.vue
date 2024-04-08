@@ -17,9 +17,9 @@
                 </span>
             </div>
 
-            <button type="button" class="w-full rounded bg-brand text-white p-2">
-                Order now
-            </button>
+            <a href="https://t.me/ibnhayot" class="block text-center w-full rounded bg-brand text-white p-2">
+                Buyrutma qilish
+            </a>
         </div>
     </div>
 </template>
