@@ -8,6 +8,9 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  modules: [
+    'nuxt-aos'
+  ],
   app: {
     head: {
       title: 'MegaHome',

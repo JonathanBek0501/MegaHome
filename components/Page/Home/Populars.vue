@@ -22,7 +22,7 @@
 
                 <div>
                     <h3 class="text-white font-medium text-lg">
-                        Daxshat idishlar
+                        Offis va uy uchun kreslolar
                     </h3>
                     <span class="text-gray-300">
                         345 dona
@@ -34,7 +34,7 @@
 
                 <div>
                     <h3 class="text-white font-medium text-lg">
-                        Daxshat idishlar
+                        Seyflar
                     </h3>
                     <span class="text-gray-300">
                         345 dona
@@ -46,7 +46,7 @@
 
                 <div>
                     <h3 class="text-white font-medium text-lg">
-                        Daxshat idishlar
+                        Kartina va dekorlar
                     </h3>
                     <span class="text-gray-400">
                         345 dona
@@ -58,7 +58,7 @@
 
                 <div>
                     <h3 class="text-white font-medium text-lg">
-                        Daxshat idishlar
+                        Chemodan
                     </h3>
                     <span class="text-gray-300">
                         345 dona

@@ -4,7 +4,7 @@
             <img class="w-52 sm:w-80" src="/megahome-text.png" alt="">
         </div>
 
-        <div class="bg-brand hidden lg:block">
+        <div class="bg-brand hidden">
             <div class="grid grid-cols-6 max-w-7xl mx-auto px-4">
                 <div v-for="(navigation, index) in navigations" :key="index" class="relative w-full whitespace-nowrap group">
                     <nuxt-link to="/" class="flex items-center justify-center gap-1 uppercase text-white hover:text-white/70 font-medium text-sm p-3">
