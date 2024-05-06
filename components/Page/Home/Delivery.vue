@@ -7,7 +7,7 @@
               </span>
             </div>
         </div>
-        <div data-aos="fade-left" class="max-w-4xl mx-auto -mb-10">
+        <div data-aos="fade-left" data-aos-duration="500" class="max-w-4xl mx-auto -mb-10">
             <img src="/labo-delivery.png" alt="Delivery Image" class="w-full" />
         </div>
     </section>

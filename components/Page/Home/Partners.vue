@@ -13,7 +13,7 @@
           spaceBetween: 32,
         },
         '1024': {
-          slidesPerView: 8,
+          slidesPerView: 5,
           spaceBetween: 40,
         },
       }"
@@ -25,8 +25,8 @@
       :modules="modules"
       class="swiperPartnerBrands"
     >
-      <swiper-slide v-for="items in 16">
-        <img src="/Pearl_logo.jpg" alt="pearl logo" />
+      <swiper-slide v-for="(logo, index) in logos" :key="index">
+        <img :src="`/logos/${logo}`" :alt="logo" class="max-h-12 mx-auto" />
       </swiper-slide>
     </swiper>
   </div>
@@ -38,4 +38,12 @@ import { Swiper, SwiperSlide } from "swiper/vue";
 import "swiper/css";
 
 const modules = [Autoplay];
+
+const logos = ref(['elde.svg', 'imkon.svg', 'ishonch.svg', 'tehnodom.jpg', 'uzum.svg', 'elde.svg', 'imkon.svg', 'ishonch.svg', 'tehnodom.jpg', 'uzum.svg'])
 </script>
+
+<style>
+.swiper-wrapper {
+  @apply !items-center
+}
+</style>
