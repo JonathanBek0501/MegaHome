@@ -43,7 +43,7 @@ const logos = ref(['elde.svg', 'imkon.svg', 'ishonch.svg', 'tehnodom.jpg', 'uzum
 </script>
 
 <style>
-.swiper-wrapper {
+.swiperPartnerBrands .swiper-wrapper {
   @apply !items-center
 }
 </style>

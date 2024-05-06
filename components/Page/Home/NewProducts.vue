@@ -54,58 +54,52 @@ const modules = [Navigation, Autoplay]
 
 const cards = ref([
     {
-        img: 'bestSellers/farfor1.JPG',
-        title: 'Farfor grafin',
+        img: 'bestSellers/08DLX.jpg',
+        title: '3L Grafin va 150ML Fyujer',
+        currentPrice: 350000,
+        prePrice: 450000,
+    },
+    {
+        img: 'bestSellers/58278M.jpg',
+        title: '40x28 Dekorativ temir lagan',
+        currentPrice: 815000,
+        prePrice: 875000,
+    },
+    {
+        img: 'bestSellers/9PCGranite2.jpg',
+        title: '9PC Granit',
+        currentPrice: 1250000,
+        prePrice: 1350000,
+    },
+    {
+        img: 'bestSellers/CHEMODAN.jpg',
+        title: 'Hoffmayer 72PC',
         currentPrice: 400000,
         prePrice: 550000,
     },
     {
-        img: 'bestSellers/farfor2.JPG',
-        title: 'Farfor grafin',
-        currentPrice: 400000,
-        prePrice: 550000,
-    },
-    {
-        img: 'bestSellers/farfor3.JPG',
-        title: 'Farfor grafin',
-        currentPrice: 400000,
-        prePrice: 550000,
+        img: 'bestSellers/DOMTIME205F.jpg',
+        title: 'Kreslo 205',
+        currentPrice: 1650000,
+        prePrice: 1800000,
     },
     {
         img: 'bestSellers/qozon1.JPG',
-        title: 'Elektr Qozon',
+        title: 'Granit qozon',
+        currentPrice: 490000,
+        prePrice: 650000,
+    },
+    {
+        img: 'bestSellers/Termos096JP.jpg',
+        title: 'Termos 096JP',
         currentPrice: 400000,
         prePrice: 550000,
     },
     {
-        img: 'bestSellers/qozon2.JPG',
-        title: 'Elektr Qozon',
-        currentPrice: 400000,
-        prePrice: 550000,
-    },
-    {
-        img: 'bestSellers/qozon3.JPG',
-        title: 'Elektr Qozon',
-        currentPrice: 400000,
-        prePrice: 550000,
-    },
-    {
-        img: 'bestSellers/seyf1.JPG',
-        title: 'Mustaxkam Seyf',
-        currentPrice: 400000,
-        prePrice: 550000,
-    },
-    {
-        img: 'bestSellers/seyf2.JPG',
-        title: 'Mustaxkam Seyf',
-        currentPrice: 400000,
-        prePrice: 550000,
-    },
-    {
-        img: 'bestSellers/seyf3.JPG',
-        title: 'Mustaxkam Seyf',
-        currentPrice: 400000,
-        prePrice: 550000,
+        img: 'bestSellers/DOMTIME363F.jpg',
+        title: 'Kreslo 363F',
+        currentPrice: 1450000,
+        prePrice: 1550000,
     },
 ])
 </script>
