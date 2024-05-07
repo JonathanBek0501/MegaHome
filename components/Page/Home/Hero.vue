@@ -13,7 +13,7 @@
       :navigation="true"
       :modules="modules"
       @autoplayTimeLeft="onAutoplayTimeLeft"
-      class="mySwiper sm:custom-h-desc custom-h-mob"
+      class="mySwiper h-40 sm:h-80 lg:h-[500px]"
     >
       <swiper-slide>
         <div class="relative w-full h-full">

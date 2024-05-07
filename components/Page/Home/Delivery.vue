@@ -1,5 +1,5 @@
 <template>
-    <section class="pt-10">
+    <section class="pt-10 overflow-hidden">
         <div class="relative overflow-hidden bg-brand text-white py-2 sm:py-4">
             <div class="running-text">
               <span class="marquee-text text-xl sm:text-2xl">

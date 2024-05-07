@@ -1,7 +1,7 @@
 <template>
     <header>
         <div class="flex justify-center p-4">
-            <img class="w-52 sm:w-80" src="/megahome-text.png" alt="">
+            <img class="w-40 sm:w-80" src="/megahome-text.png" alt="">
         </div>
 
         <div class="bg-brand hidden">
