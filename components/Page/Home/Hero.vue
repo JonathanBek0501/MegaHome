@@ -37,7 +37,7 @@
         </div>
       </swiper-slide>
       <template #container-end>
-        <div class="autoplay-progress">
+        <div class="autoplay-progress w-8 sm:w-12 h-8 sm:h-12 text-xs">
           <svg viewBox="0 0 48 48" ref="progressCircle">
             <circle cx="24" cy="24" r="20"></circle>
           </svg>
@@ -95,8 +95,6 @@
   right: 16px;
   bottom: 16px;
   z-index: 10;
-  width: 48px;
-  height: 48px;
   display: flex;
   align-items: center;
   justify-content: center;
