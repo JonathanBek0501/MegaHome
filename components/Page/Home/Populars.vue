@@ -6,7 +6,7 @@
         
         <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 grid-rows-[110px_110px] gap-2">
             <div class="relative group overflow-hidden lg:row-span-2 flex items-center gap-5 lg:block rounded bg-yellow-500 hover:shadow-brand transition-all ease-in-out p-5">
-                <img src="/dishes.svg" alt="dishes" class="hidden w-16 lg:w-32">
+                <img src="/dishes.svg" alt="dishes" class="hidden sm:block w-16 lg:w-32">
 
                 <div>
                     <h3 class="text-white font-medium text-lg">
@@ -29,8 +29,8 @@
                     </a>
                 </div>
             </div>
-            <a href="#" class="flex items-center gap-5 rounded bg-red-400 hover:shadow-brand transition-all ease-in-out p-5">
-                <img src="/dishes.svg" alt="dishes" class="hidden w-16">
+            <a href="/products" class="flex items-center gap-5 rounded bg-red-400 hover:shadow-brand transition-all ease-in-out p-5">
+                <img src="/dishes.svg" alt="dishes" class="hidden sm:block w-16">
 
                 <div>
                     <h3 class="text-white font-medium text-lg">
@@ -41,8 +41,8 @@
                     </span>
                 </div>
             </a>
-            <a href="#" class="flex items-center gap-5 rounded bg-red-400 hover:shadow-brand transition-all ease-in-out p-5">
-                <img src="/dishes.svg" alt="dishes" class="hidden w-16">
+            <a href="/products" class="flex items-center gap-5 rounded bg-red-400 hover:shadow-brand transition-all ease-in-out p-5">
+                <img src="/dishes.svg" alt="dishes" class="hidden sm:block w-16">
 
                 <div>
                     <h3 class="text-white font-medium text-lg">
@@ -54,7 +54,7 @@
                 </div>
             </a>
             <div class="relative group overflow-hidden lg:row-span-2 flex items-center gap-5 lg:block rounded bg-yellow-500 hover:shadow-brand transition-all ease-in-out p-5">
-                <img src="/dishes.svg" alt="dishes" class="hidden w-16 lg:w-32">
+                <img src="/dishes.svg" alt="dishes" class="hidden sm:block w-16 lg:w-32">
 
                 <div>
                     <h3 class="text-white font-medium text-lg">
@@ -77,8 +77,8 @@
                     </a>
                 </div>
             </div>
-            <a href="#" class="flex items-center gap-5 rounded bg-red-400 hover:shadow-brand transition-all ease-in-out p-5">
-                <img src="/dishes.svg" alt="dishes" class="hidden w-16">
+            <a href="/products" class="flex items-center gap-5 rounded bg-red-400 hover:shadow-brand transition-all ease-in-out p-5">
+                <img src="/dishes.svg" alt="dishes" class="hidden sm:block w-16">
 
                 <div>
                     <h3 class="text-white font-medium text-lg">
@@ -89,8 +89,8 @@
                     </span>
                 </div>
             </a>
-            <a href="#" class="flex items-center gap-5 rounded bg-red-400 hover:shadow-brand transition-all ease-in-out p-5">
-                <img src="/dishes.svg" alt="dishes" class="hidden w-16">
+            <a href="/products" class="flex items-center gap-5 rounded bg-red-400 hover:shadow-brand transition-all ease-in-out p-5">
+                <img src="/dishes.svg" alt="dishes" class="hidden sm:block w-16">
 
                 <div>
                     <h3 class="text-white font-medium text-lg">

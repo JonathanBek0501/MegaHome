@@ -1,8 +1,8 @@
 <template>
     <header>
-        <div class="flex justify-center p-4">
+        <a href="/" class="flex justify-center p-4">
             <img class="w-40 sm:w-80" src="/megahome-text.png" alt="">
-        </div>
+        </a>
 
         <div class="bg-brand hidden">
             <div class="grid grid-cols-6 max-w-7xl mx-auto px-4">

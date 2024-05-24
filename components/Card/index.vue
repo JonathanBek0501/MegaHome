@@ -5,9 +5,11 @@
         </div>
         <div class="flex flex-col gap-3 justify-between h-full p-3 sm:p-4">
             <div class="space-y-1">
-                <h3 class="sm:text-xl font-semibold">
-                    {{ title }}
-                </h3>
+                <a href="/product" class="text-black hover:text-brand">
+                    <h3 class="sm:text-xl font-semibold">
+                        {{ title }}
+                    </h3>
+                </a>
                 <p>
                     qisqacha xossalari
                 </p>
@@ -23,7 +25,7 @@
                     </span>
                 </div>
     
-                <a href="https://t.me/ibnhayot" class="block text-center w-full rounded bg-brand text-white p-2">
+                <a href="https://t.me/ibnhayot" class="block text-center w-full rounded bg-brand hover:bg-brand/80 transition-all ease-in-out text-white p-2">
                     Buyrutma qilish
                 </a>
             </div>
