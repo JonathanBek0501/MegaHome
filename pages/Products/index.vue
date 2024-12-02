@@ -6,6 +6,19 @@
             <h2 class="text-3xl sm:text-4xl font-bold pb-5">
                 Category name
             </h2>
+
+            <div class="flex items-center gap-3 flex-wrap pb-5">
+                <!-- When active should be bg-gray-300 -->
+                <button class="rounded-md bg-gray-200 transition-all ease-in-out hover:bg-gray-300 py-1 px-4">
+                    Qozon
+                </button>
+                <button class="rounded-md bg-gray-200 transition-all ease-in-out hover:bg-gray-300 py-1 px-4">
+                    Tavoq
+                </button>
+                <button class="rounded-md bg-gray-200 transition-all ease-in-out hover:bg-gray-300 py-1 px-4">
+                    Tarelka
+                </button>
+            </div>
             <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2.5 sm:gap-4 md:gap-6 lg:gap-5">
                 <Card v-for="(card, index) in cards" :key="index" :img="card.img" :title="card.title" :current-price="card.currentPrice" :pre-price="card.prePrice" class="h-full"/>
             </div>
