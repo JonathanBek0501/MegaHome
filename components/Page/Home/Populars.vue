@@ -1,7 +1,7 @@
 <template>
     <div class="max-w-7xl mx-auto py-10 px-4 sm:px-6">
         <h2 class="text-4xl font-bold pb-5">
-            Popular
+            Categories
         </h2>
         
         <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 grid-rows-[110px_110px] gap-2">
