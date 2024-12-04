@@ -1,8 +1,6 @@
 <template>
     <div class="max-w-7xl mx-auto pt-4 px-4 sm:px-6">
-        <TheBreadcrumbs />
-
-        <div class="py-10">
+        <div class="pb-10">
             <h2 class="text-3xl sm:text-4xl font-bold pb-5">
                 Category name
             </h2>

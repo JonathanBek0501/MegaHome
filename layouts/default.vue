@@ -1,5 +1,5 @@
 <template>
-    <theHeader />
+    <theHeader class="sticky top-0 left-0 z-[9999]" />
     <main class="bg-body min-h-screen">
         <slot />
         <PageHomeNewProducts />
