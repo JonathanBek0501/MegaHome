@@ -1,5 +1,5 @@
 <template>
-  <a href="/" class="rounded-full bg-red-500 size-20 flex items-center justify-center">
+  <a href="/" class="rounded-full bg-red-500 size-14 md:size-20 flex items-center justify-center p-2.5 md:p-4">
     <svg
       data-slot="icon"
       fill="none"
@@ -8,7 +8,7 @@
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
       aria-hidden="true"
-      class="size-12 text-white"
+      class="w-full h-full text-white"
     >
       <path
         stroke-linecap="round"

@@ -7,7 +7,7 @@
         <PageHomeDelivery />
         <PageHomeContact />
 
-        <Basket class="fixed bottom-20 right-16 z-50"/>
+        <Basket class="fixed bottom-5 md:bottom-10 2xl:bottom-20 right-5 md:right-10 2xl:right-16 z-50"/>
     </main>
     <theFooter />
 </template>
